@@ -1,0 +1,825 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16217 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Sheridan2023/Projects/Unity projects/Hollow Knight
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58256
+Successfully changed project path to: C:/Sheridan2023/Projects/Unity projects/Hollow Knight
+C:/Sheridan2023/Projects/Unity projects/Hollow Knight
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Sheridan2023/Projects/Unity projects/Hollow Knight/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   
+    VRAM:     12138 MB
+    Driver:   30.0.14.9709
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000862 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.394 seconds
+Domain Reload Profiling:
+	ReloadAssembly (394ms)
+		BeginReloadAssembly (40ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (303ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (118ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001676 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Sheridan2023\Projects\Unity projects\Hollow Knight\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Domain Reload Profiling:
+	ReloadAssembly (649ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (515ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 71.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 1.912300 ms (FindLiveObjects: 0.083100 ms CreateObjectMapping: 0.030500 ms MarkObjects: 1.749700 ms  DeleteObjects: 0.048000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(6633e0181c0b4fc40ab3b872fbdf404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6633e0181c0b4fc40ab3b872fbdf404c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e8270797c651fe84b9d70a660c2656') in 0.005871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.266786 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c55409359c0051422e58de30b0573d') in 0.006422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.822850 seconds.
+  path: Assets/Scenes/Gameplay.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gameplay.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9778c24c46209afa69c2fc779005dd4e') in 0.004174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.184326 seconds.
+  path: Assets/Prefabs/Level Prefab
+  artifactKey: Guid(442ded56147bc954dbc37509e700e5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Prefab using Guid(442ded56147bc954dbc37509e700e5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f698469f7b29658c52eba93f71f69d6') in 0.007233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072470 seconds.
+  path: Assets/Prefabs/Level Prefab/Cemetery.prefab
+  artifactKey: Guid(1f32365de5564434ea2b6ed925f0337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Prefab/Cemetery.prefab using Guid(1f32365de5564434ea2b6ed925f0337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c848f5f12fb3d0cf762ffd96c5c7b89f') in 0.443786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.775314 seconds.
+  path: Assets/Prefabs/Level Prefab/Terrain.prefab
+  artifactKey: Guid(2e1da65fcf0be4cd2950bd26f57d5ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Prefab/Terrain.prefab using Guid(2e1da65fcf0be4cd2950bd26f57d5ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691025f0d353b8124c4c19747813b321') in 0.006237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 217.244036 seconds.
+  path: Assets/Models
+  artifactKey: Guid(88b367baf7774f64d939e1480a212bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(88b367baf7774f64d939e1480a212bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6e5633a1b7df7cda1b0d1af6fcef72') in 0.004576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.919318 seconds.
+  path: Assets/Models/Rock1.FBX
+  artifactKey: Guid(dfbf77845411d54469fcca1222f5797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rock1.FBX using Guid(dfbf77845411d54469fcca1222f5797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf10d6e178176f88a3cd5cd815281b5') in 0.166208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099122 seconds.
+  path: Assets/Models/Cemetry Asset Pack
+  artifactKey: Guid(ff5dd29122c9a4b4cb91edd42d05593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cemetry Asset Pack using Guid(ff5dd29122c9a4b4cb91edd42d05593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a552f6cae535d8e17f9bb25f9d27a0b') in 0.005688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.024818 seconds.
+  path: Assets/Models/Black Knight
+  artifactKey: Guid(7b86f91e1c02146eeb5f804366ffeb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight using Guid(7b86f91e1c02146eeb5f804366ffeb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d098798f23ac3851a54a9d56f5c84a5') in 0.005585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099786 seconds.
+  path: Assets/Models/Black Knight/T_Black_Knight_D.tga
+  artifactKey: Guid(f89333f9377629d459a991892ef350ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/T_Black_Knight_D.tga using Guid(f89333f9377629d459a991892ef350ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d51f823f97c843cc4470bb4cbcc47e7') in 0.012745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Models/Black Knight/T_Black_Knight_N.tga
+  artifactKey: Guid(783eced9fe1a70d49a5ff4a83d8bb72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/T_Black_Knight_N.tga using Guid(783eced9fe1a70d49a5ff4a83d8bb72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26ccc9f0bae01062e12fec726419d04') in 0.008364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.925336 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS
+  artifactKey: Guid(bcbb1dfb652ff3a4daa5a39ca78e1ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS using Guid(bcbb1dfb652ff3a4daa5a39ca78e1ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84c28e94555e1974a94d110c7430266') in 0.004730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100311 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/atk3.FBX
+  artifactKey: Guid(0ab9fa07afdc7374ea04c37e1380bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/atk3.FBX using Guid(0ab9fa07afdc7374ea04c37e1380bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4d7fb18aa1dca0bb812261c31ca9f6') in 0.261981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Center_c.FBX
+  artifactKey: Guid(7b0b89cca1695de4e97e410c789640c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Center_c.FBX using Guid(7b0b89cca1695de4e97e410c789640c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55a5fd4e198bd61c78ac2db4820c4e2') in 0.110440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Dizzy_Start.FBX
+  artifactKey: Guid(51a176a4b25de2344ad33319901d0301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Dizzy_Start.FBX using Guid(51a176a4b25de2344ad33319901d0301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a383873a42696eead5fe2286695e271') in 0.107723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Stance.FBX
+  artifactKey: Guid(0fcd93be0ba332a4f94466a78bff1af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Stance.FBX using Guid(0fcd93be0ba332a4f94466a78bff1af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea82937e579b983e404778a746d66ec8') in 0.120374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Move_Stance_Dizzy.FBX
+  artifactKey: Guid(017fee9f89032cc40bf11b69e8d1c237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Move_Stance_Dizzy.FBX using Guid(017fee9f89032cc40bf11b69e8d1c237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3481de7abc4edb3c6ff7c5f4f284d86') in 0.091294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Left_b.FBX
+  artifactKey: Guid(32b9c3bf157ec264c83dc394a694c691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Left_b.FBX using Guid(32b9c3bf157ec264c83dc394a694c691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77300cd052ac503e9931969c8518edd') in 0.093884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Intro_02.FBX
+  artifactKey: Guid(123f7c849b59076418e1222ca0571478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Intro_02.FBX using Guid(123f7c849b59076418e1222ca0571478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4597e9cdec475b0bfedd92a35294d785') in 0.089529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_Right.FBX
+  artifactKey: Guid(827109d5dd4e7e9459c8016dc6389140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_Right.FBX using Guid(827109d5dd4e7e9459c8016dc6389140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ff05ff92264b63b91fcaf91cbf0436') in 0.085878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Move_Idle03.FBX
+  artifactKey: Guid(b3c75f37714bb42499774903228d744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Move_Idle03.FBX using Guid(b3c75f37714bb42499774903228d744a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645fb134599b93d6a9a6218de72fda0f') in 0.087652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Move_Stance.FBX
+  artifactKey: Guid(e2b7652a16d2f874ca128bf49ca95544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Move_Stance.FBX using Guid(e2b7652a16d2f874ca128bf49ca95544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a13ec1c4e1be9643706df0a7da514d1') in 0.090445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Right_b.FBX
+  artifactKey: Guid(77109fe230ff131498684979560fb0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Right_b.FBX using Guid(77109fe230ff131498684979560fb0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c8a23eb0e7a1456cb7c0bd775dcb32') in 0.094700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Right.FBX
+  artifactKey: Guid(4f937bf118569c6438d29d303da39dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Right.FBX using Guid(4f937bf118569c6438d29d303da39dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc9b3f7a96d565abf42aec5fecff506') in 0.094185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Parried_Left.FBX
+  artifactKey: Guid(5097b47abf91c8c4581f1f96b8db8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Parried_Left.FBX using Guid(5097b47abf91c8c4581f1f96b8db8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32a07abf6a331d8a9416eba3682bac7') in 0.100435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_Left.FBX
+  artifactKey: Guid(3e588bee19ac3174aa044c63c13b6693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_Left.FBX using Guid(3e588bee19ac3174aa044c63c13b6693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca524017349fa86fb91d91d1859f912') in 0.074187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Move_Stance_GuardDown.FBX
+  artifactKey: Guid(07b18cf185fb13e438a97b06a38a68b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Move_Stance_GuardDown.FBX using Guid(07b18cf185fb13e438a97b06a38a68b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cbbc36fd6ebf8cdc18286ffe74b7c5') in 0.077069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Death_b.FBX
+  artifactKey: Guid(bba50c544dc4c734cabd3ac95c6189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Death_b.FBX using Guid(bba50c544dc4c734cabd3ac95c6189cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b384dc52b00a5c81fa5d49b88c677c8') in 0.080603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Block_Down.FBX
+  artifactKey: Guid(49fe564fa7024f541a5e4334e20ed018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Block_Down.FBX using Guid(49fe564fa7024f541a5e4334e20ed018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36066772a0be55849608f65c7fc28b8d') in 0.077622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_HitReaction.FBX
+  artifactKey: Guid(5faf4b323bfac2147be0232597ff7717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_HitReaction.FBX using Guid(5faf4b323bfac2147be0232597ff7717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d87547b8c506636a610c80a0ad736f') in 0.074316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack1.FBX
+  artifactKey: Guid(ba535d1ff7cf1734ca137e8f0e6abfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack1.FBX using Guid(ba535d1ff7cf1734ca137e8f0e6abfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4434d886b9a36fe495b5c4e6ceade8') in 0.080548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Blocked_Center.FBX
+  artifactKey: Guid(9c63e6bae00ea3c499b65bc7d737a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Blocked_Center.FBX using Guid(9c63e6bae00ea3c499b65bc7d737a6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835d1c6fc90f1444f5f2b315d9a859ba') in 0.078610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Down.FBX
+  artifactKey: Guid(7ff5de4c2f1f8f04ab5ab28770d6075f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Down.FBX using Guid(7ff5de4c2f1f8f04ab5ab28770d6075f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dd50e62ee5660cd1cfc548915bf3f7') in 0.076143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Parried_Center.FBX
+  artifactKey: Guid(cdf8efb17408d774eb79c94f1cd130ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Parried_Center.FBX using Guid(cdf8efb17408d774eb79c94f1cd130ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedede7350030bd515c37431007456bf') in 0.074763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Right_d.FBX
+  artifactKey: Guid(bb7f390b6eb8c79498774922eff8d7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Right_d.FBX using Guid(bb7f390b6eb8c79498774922eff8d7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbfb2cd4d8b40a808ec27fd1e1c8e4f') in 0.076753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Blocked_Left.FBX
+  artifactKey: Guid(6cb93903453b3574eb5dd6843d7d1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Blocked_Left.FBX using Guid(6cb93903453b3574eb5dd6843d7d1923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03945b9dafe5ac907ca9a192b55db6b') in 0.075305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Left.FBX
+  artifactKey: Guid(b0e41b23aeadee042a1c81ea0945dc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Left.FBX using Guid(b0e41b23aeadee042a1c81ea0945dc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd8c5257affe991877e922675a30925') in 0.077114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Blocked_Right.FBX
+  artifactKey: Guid(90a16b3f7da750143aea7c7d801ca508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Blocked_Right.FBX using Guid(90a16b3f7da750143aea7c7d801ca508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aacce3c4feeece636993c5ea7252d42') in 0.076229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Super.FBX
+  artifactKey: Guid(e5f7e50cd1d0ac24cbcf8956c0b6c912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Super.FBX using Guid(e5f7e50cd1d0ac24cbcf8956c0b6c912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f166f3d8a4dfe58691748d44158dbd') in 0.075227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Death_Fall.FBX
+  artifactKey: Guid(b4b65077bd536ec40b13d512e67009fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Death_Fall.FBX using Guid(b4b65077bd536ec40b13d512e67009fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f816691a9e52debc371978a0bc57a437') in 0.077530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Start.FBX
+  artifactKey: Guid(5ead2aec25d9ebd479e131569c60cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Start.FBX using Guid(5ead2aec25d9ebd479e131569c60cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c082445ddab751b9c5c27e49b60fe6f') in 0.077196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Intro_03.FBX
+  artifactKey: Guid(3d26717eb7e1c8645bf8aab341520643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Intro_03.FBX using Guid(3d26717eb7e1c8645bf8aab341520643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8136ec1adea53d2514853cd769f0df1') in 0.074884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Parried_Right.FBX
+  artifactKey: Guid(41b9e5097f6406e4fae74d6fa47f0fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Parried_Right.FBX using Guid(41b9e5097f6406e4fae74d6fa47f0fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0123a66068093505882f751247859069') in 0.075929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Intro_Walk.FBX
+  artifactKey: Guid(3b730889c41b9da4fa1e99800cc31217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Intro_Walk.FBX using Guid(3b730889c41b9da4fa1e99800cc31217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0744957bf65f242979cbd13840fe63eb') in 0.076279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Parried_Center.FBX
+  artifactKey: Guid(fef12010fcfbbbe49ac541939c6b0d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Parried_Center.FBX using Guid(fef12010fcfbbbe49ac541939c6b0d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a61aa9485b89aa3341ab0d4f6f7941') in 0.073808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Left_b.FBX
+  artifactKey: Guid(fd8d1d883112c574aad2a28ccdf71496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Left_b.FBX using Guid(fd8d1d883112c574aad2a28ccdf71496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d06a8409f4f9f5596ee9a891e09ab4a') in 0.076536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Left_c.FBX
+  artifactKey: Guid(46b8466b96ee2d942b6ebc7ca21e4b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Left_c.FBX using Guid(46b8466b96ee2d942b6ebc7ca21e4b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1080e24cb8c7064504c807d7c692e3f6') in 0.074108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Parried_Down.FBX
+  artifactKey: Guid(5bbfcfd6c508e5842b26a69c4e6bfee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Parried_Down.FBX using Guid(5bbfcfd6c508e5842b26a69c4e6bfee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5702de2e9ae4d82478458e305a957e0') in 0.074698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Nav_DropIn.FBX
+  artifactKey: Guid(507e65c8d3a5e9d4db6d2fc47b366edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Nav_DropIn.FBX using Guid(507e65c8d3a5e9d4db6d2fc47b366edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9e901e7108e83d4cf02e191697cc6e') in 0.075153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Center.FBX
+  artifactKey: Guid(54619b06d089e234dbdd6e6ee5e376cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Center.FBX using Guid(54619b06d089e234dbdd6e6ee5e376cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdadb33f4a206bac52cb1ac30cc8544') in 0.077204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_CenterLeft.FBX
+  artifactKey: Guid(dd03edb8a28f81041a413f26d9c6a936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_CenterLeft.FBX using Guid(dd03edb8a28f81041a413f26d9c6a936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f0e33356f63f6e8a8f721f36870007') in 0.079883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_LeftRight.FBX
+  artifactKey: Guid(7ff34c2b644ea234088a2241fc07cdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_LeftRight.FBX using Guid(7ff34c2b644ea234088a2241fc07cdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d67a64dac16a842719930676ac548c') in 0.078044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Center_b.FBX
+  artifactKey: Guid(10a7f3471ae596a4e9b68228e41c1910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Center_b.FBX using Guid(10a7f3471ae596a4e9b68228e41c1910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f285ccbc5e61035b2d2eceba21f98ec') in 0.077274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_CenterRight.FBX
+  artifactKey: Guid(f0b45204a2192ed46b8058a416c05dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_CenterRight.FBX using Guid(f0b45204a2192ed46b8058a416c05dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf6791aa8a9a3c41a1b5db9ad240d48') in 0.074952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Death.FBX
+  artifactKey: Guid(ddb09f3e4ef471c41ab6b2ff576ec3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Death.FBX using Guid(ddb09f3e4ef471c41ab6b2ff576ec3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0320516fb2e6d98e5c224c8ab45f8012') in 0.075769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Left.FBX
+  artifactKey: Guid(e24c0c67f97e84f438fccfa34bd16641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Left.FBX using Guid(e24c0c67f97e84f438fccfa34bd16641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85300304ef0276ffc4235ef5be783104') in 0.076784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Right_b.FBX
+  artifactKey: Guid(b27e7037e44532046a8cc7aae74d3aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Right_b.FBX using Guid(b27e7037e44532046a8cc7aae74d3aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45695b0cf8029a526abaa3fe90a4069') in 0.077866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Right.FBX
+  artifactKey: Guid(d613e3f780d2eee41815322a306c3ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Right.FBX using Guid(d613e3f780d2eee41815322a306c3ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9298a026d98218dec9c4ff4dd33027e') in 0.075707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Parried_Down.FBX
+  artifactKey: Guid(afd264c7a0f074b4581e55586c1a328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Parried_Down.FBX using Guid(afd264c7a0f074b4581e55586c1a328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8978d5200fe18a22d0164f5f794d78') in 0.076612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Death_Universal.FBX
+  artifactKey: Guid(12cb9d35ec8fbcd4c896e5f4a28aa038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Death_Universal.FBX using Guid(12cb9d35ec8fbcd4c896e5f4a28aa038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c460f8f002676be6dd6dc6bb686cda8e') in 0.077809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Block_Center.FBX
+  artifactKey: Guid(cf08fbdb955855f449ed191141a8206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Block_Center.FBX using Guid(cf08fbdb955855f449ed191141a8206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48fcd54c3bbd880d55ac59d5ca41a9d') in 0.074167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Down_b.FBX
+  artifactKey: Guid(baebac85da7a335408244ebe2275972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Down_b.FBX using Guid(baebac85da7a335408244ebe2275972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70111df7bd66725f621ac2431fea19c7') in 0.073991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Intro.FBX
+  artifactKey: Guid(4179204d6759af04bab99c37d41f8ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Intro.FBX using Guid(4179204d6759af04bab99c37d41f8ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd85ffa086588550ee57a1f2d14e4189') in 0.076922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Left_d.FBX
+  artifactKey: Guid(c8e0178fd6545bf4db2b1b58df604f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Left_d.FBX using Guid(c8e0178fd6545bf4db2b1b58df604f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7022a20436b57fc21e156d974e82fb9') in 0.075147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Big_Left.FBX
+  artifactKey: Guid(3d9d2d73a961d3c498299d99808bd756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Big_Left.FBX using Guid(3d9d2d73a961d3c498299d99808bd756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a1a2a9ff2d5b6fa8bc335e0de97da9') in 0.079320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Block_Left.FBX
+  artifactKey: Guid(1be5fa784ccc9b94b8898a3951a077de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Block_Left.FBX using Guid(1be5fa784ccc9b94b8898a3951a077de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab25e1714f0986597d88e1bf862d96a8') in 0.076318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Blocked_Down.FBX
+  artifactKey: Guid(8da0112c9cac0004ea20273d0ab32da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Blocked_Down.FBX using Guid(8da0112c9cac0004ea20273d0ab32da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48566970ccdd3d22f74bd42568dc64d6') in 0.076892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Block_Right.FBX
+  artifactKey: Guid(3ca3fd6c5624e1044a69661ea91e1399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Block_Right.FBX using Guid(3ca3fd6c5624e1044a69661ea91e1399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738606d23e52a65a9c127738aa5ce31b') in 0.074662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_Center.FBX
+  artifactKey: Guid(83a98dab89368bd42bc5993f58bbb1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_Attack_Center.FBX using Guid(83a98dab89368bd42bc5993f58bbb1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c84f76a31aea3174208a55656546e73') in 0.075582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Move_Idle01.FBX
+  artifactKey: Guid(c0a3cb72d4013d247a942e6f961b4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Move_Idle01.FBX using Guid(c0a3cb72d4013d247a942e6f961b4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da4f261ce4b12ec7df89dec7e5889ec') in 0.074290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Down_c.FBX
+  artifactKey: Guid(ed5cfc9a3eb6ff142b4e6469ce25bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Small_Down_c.FBX using Guid(ed5cfc9a3eb6ff142b4e6469ce25bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f6ef777ae395eb8b5943ad437baab3') in 0.073922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Magic_End.FBX
+  artifactKey: Guid(ef9edc8a4a97c214bbebbfa3f2a514fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Magic_End.FBX using Guid(ef9edc8a4a97c214bbebbfa3f2a514fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384fb4822b1acd86e2ee123a41907008') in 0.074665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Big_Right.FBX
+  artifactKey: Guid(12403f310661cf64b8af8da1a8c05dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Big_Right.FBX using Guid(12403f310661cf64b8af8da1a8c05dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c056c4fcd0b5a339ce563ed3033950c') in 0.074267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Down.FBX
+  artifactKey: Guid(486e791816566fb46bdb2927cc75adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Attack_Big_Down.FBX using Guid(486e791816566fb46bdb2927cc75adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed641ffc05ef5fa39b17f48abcff46c5') in 0.074522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/jiaochuai.FBX
+  artifactKey: Guid(24152516062eb6c4f8e10c3022db74c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/jiaochuai.FBX using Guid(24152516062eb6c4f8e10c3022db74c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3989ba1de95c1ae0c6cbc60f35a7147') in 0.081579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Move_Stance_GuardUp.FBX
+  artifactKey: Guid(631ba6651d46fb74a9a46d1b0685097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Move_Stance_GuardUp.FBX using Guid(631ba6651d46fb74a9a46d1b0685097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a178abd40d74b3dfba1251ad1e603b') in 0.085654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Parried_Left.FBX
+  artifactKey: Guid(82d39372e6257d749881d8f73e139c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Parried_Left.FBX using Guid(82d39372e6257d749881d8f73e139c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bf3daf870d79aab550b33a20c47b4d') in 0.086485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Big_Center.FBX
+  artifactKey: Guid(5f3c66f91e35a4544ac979104d2013ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Big_Center.FBX using Guid(5f3c66f91e35a4544ac979104d2013ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53786870b05f80ba9a1920e61879b3df') in 0.083347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Big_Down.FBX
+  artifactKey: Guid(de4d41d7b7564a24e88f46cf587abdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Big_Down.FBX using Guid(de4d41d7b7564a24e88f46cf587abdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e6c92d497377d833e7624dfe6d51e1') in 0.084491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.108159 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Parried_Right.FBX
+  artifactKey: Guid(c353bef04d87d3b44a9cb127a1b1c3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Parried_Right.FBX using Guid(c353bef04d87d3b44a9cb127a1b1c3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76314b8cd8c94ad3331141dc9d3cdace') in 0.103359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Runnew.FBX
+  artifactKey: Guid(73fe69d61c22eb140aced1bc66812564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Runnew.FBX using Guid(73fe69d61c22eb140aced1bc66812564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe64baeaad08d1e986f3050c809de324') in 0.128483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Small_Left.FBX
+  artifactKey: Guid(5e1cc69bd549e77449504b9a2b3d2c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Small_Left.FBX using Guid(5e1cc69bd549e77449504b9a2b3d2c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa98f2e3d6ade13fb423acc5e40de81') in 0.114738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Small_Center.FBX
+  artifactKey: Guid(874cb7e9b9769f044953b36dfb370e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Small_Center.FBX using Guid(874cb7e9b9769f044953b36dfb370e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9f3ed7ab8961542b7bb2c502692123') in 0.114500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Taunt_01_Finish.FBX
+  artifactKey: Guid(8102fc103073a5d4b8463e659095b570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Taunt_01_Finish.FBX using Guid(8102fc103073a5d4b8463e659095b570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551edc2bc6bb36b0285302dae2d50469') in 0.114644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/run.FBX
+  artifactKey: Guid(ac9c80e1f7858b24f9e34885aa7c8877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/run.FBX using Guid(ac9c80e1f7858b24f9e34885aa7c8877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a1a3c4f4785b32b89f6e5ab2b3e6be') in 0.136500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/SwordGrind_BossWinning.FBX
+  artifactKey: Guid(770d80744cc850840bed94f27e847639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/SwordGrind_BossWinning.FBX using Guid(770d80744cc850840bed94f27e847639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875bee9714a3e13473bbe379097f78fc') in 0.114927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Special_01.FBX
+  artifactKey: Guid(44d01ad729d912945b0c34887ca398da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Special_01.FBX using Guid(44d01ad729d912945b0c34887ca398da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1684e9b0716fcd7363191fb0220741b') in 0.130419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Small_Down.FBX
+  artifactKey: Guid(b6023bff747632645ac8ed575545daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Small_Down.FBX using Guid(b6023bff747632645ac8ed575545daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c664cfc3a87decd81310b61c90067770') in 0.116845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Shield_Slam.FBX
+  artifactKey: Guid(1587f6d58755cea4eab1d55babf579a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Shield_Slam.FBX using Guid(1587f6d58755cea4eab1d55babf579a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f13bc458c34b26c806e36ace8b7a2f1') in 0.118733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Stairs_Bkwd.FBX
+  artifactKey: Guid(c1a2263876321234bbc0b74385ab6b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Stairs_Bkwd.FBX using Guid(c1a2263876321234bbc0b74385ab6b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5483a5a0433983153274998bfac5c7d5') in 0.131450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/SwordGrind_BossWin.FBX
+  artifactKey: Guid(392764698e1c24f49b37fa629b8c0440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/SwordGrind_BossWin.FBX using Guid(392764698e1c24f49b37fa629b8c0440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e52739170582d0f9d17dc84075c8b5') in 0.116262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/SwordGrind_PlayerWinning.FBX
+  artifactKey: Guid(f7a3d0c9126295d49a866272b33cd48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/SwordGrind_PlayerWinning.FBX using Guid(f7a3d0c9126295d49a866272b33cd48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb8087752d2de978ce065c5e34c9513') in 0.128432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Special_02.FBX
+  artifactKey: Guid(504df7b405fef4d4da1a3e1f5e7934f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Special_02.FBX using Guid(504df7b405fef4d4da1a3e1f5e7934f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0454c52c433db19f8034abcaf9192229') in 0.129551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/React_Small_Right.FBX
+  artifactKey: Guid(1cca31dcd04c69446b5a79d1ed0e391b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/React_Small_Right.FBX using Guid(1cca31dcd04c69446b5a79d1ed0e391b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7c25841e016eea5f2dbc4b0d5db4ee') in 0.113036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/shandian.FBX
+  artifactKey: Guid(0dddcf5ce3e5e724a8f3eba7ef1b22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/shandian.FBX using Guid(0dddcf5ce3e5e724a8f3eba7ef1b22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d43e1fa97b423421d684fcf22629cca') in 0.117539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.407289 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.005355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 253.509041 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(f53f05da52b8bf74ab884d404f1296e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(f53f05da52b8bf74ab884d404f1296e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e88ee30942fe3e3ab0e111d97b147e1') in 0.005188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.711604 seconds.
+  path: Assets/Prefabs/Player Prefab
+  artifactKey: Guid(af6d2740fb3d2f14481b127ff7403548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Prefab using Guid(af6d2740fb3d2f14481b127ff7403548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82206756ed76251fa87573d41433ca8c') in 0.004104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.122154 seconds.
+  path: Assets/Prefabs/Black Knight Variant.prefab
+  artifactKey: Guid(073d20c52905a7f439c8919c0229204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Black Knight Variant.prefab using Guid(073d20c52905a7f439c8919c0229204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7eca85cc1a1989193ab9d6f7f1647e1') in 0.051249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.878808 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.970988 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(49146aa2d051f644fa93fd4e62538d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(49146aa2d051f644fa93fd4e62538d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bc49de5fdabf2174462d78414c3498') in 0.004447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.120522 seconds.
+  path: Assets/Scripts/Player Scripts
+  artifactKey: Guid(0b562ac4803161b4d995d2fb239a2f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts using Guid(0b562ac4803161b4d995d2fb239a2f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b8d5a8bb554588bc85059b14ed6b52') in 0.004262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.157801 seconds.
+  path: Assets/Scripts/Player Scripts/PlayerMove.cs
+  artifactKey: Guid(8f701633929f437409834020606a7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts/PlayerMove.cs using Guid(8f701633929f437409834020606a7871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c5fd29e2973179d73a2b245480207') in 0.007263 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001412 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Sheridan2023\Projects\Unity projects\Hollow Knight\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.2 MB.
+System memory in use after: 94.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 1.853200 ms (FindLiveObjects: 0.077800 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.710800 ms  DeleteObjects: 0.035800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.468576 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Taunt_01_Loop.FBX
+  artifactKey: Guid(8e7eab47d84786042938fd2ae0f7dd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Taunt_01_Loop.FBX using Guid(8e7eab47d84786042938fd2ae0f7dd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7153c909c7e1769dec9a898549452b') in 0.157563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Models/Black Knight/Anims_10ft_SnS/Transition_01.FBX
+  artifactKey: Guid(cd68220b0b6dbe943a8738712db5d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Black Knight/Anims_10ft_SnS/Transition_01.FBX using Guid(cd68220b0b6dbe943a8738712db5d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80897eda784f98addcf77ec0c95bc02c') in 0.144490 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
